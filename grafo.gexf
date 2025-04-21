@@ -1,9 +1,13 @@
 <?xml version='1.0' encoding='utf-8'?>
 <gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
-  <meta lastmodifieddate="2025-04-20">
+  <meta lastmodifieddate="2025-04-21">
     <creator>NetworkX 3.4.2</creator>
   </meta>
   <graph defaultedgetype="undirected" mode="static" name="">
+    <attributes mode="static" class="edge">
+      <attribute id="2" title="line" type="string" />
+      <attribute id="3" title="time" type="double" />
+    </attributes>
     <attributes mode="static" class="node">
       <attribute id="0" title="name" type="string" />
       <attribute id="1" title="station_code" type="long" />
@@ -1463,268 +1467,1662 @@
       </node>
     </nodes>
     <edges>
-      <edge source="LA GRANJA" target="LA MORALEJA" id="0" />
-      <edge source="LA GRANJA" target="RONDA DE LA COMUNICACION" id="1" />
-      <edge source="LA MORALEJA" target="MARQUES DE LA VALDAVIA" id="2" />
-      <edge source="MARQUES DE LA VALDAVIA" target="MANUEL DE FALLA" id="3" />
-      <edge source="MANUEL DE FALLA" target="BAUNATAL" id="4" />
-      <edge source="JOAQUIN VILUMBRALES" target="CUATRO VIENTOS" id="5" />
-      <edge source="PUERTA DEL SUR" target="SAN NICASIO" id="6" />
-      <edge source="PARQUE LISBOA" target="ALCORCON CENTRAL" id="7" />
-      <edge source="ALCORCON CENTRAL" target="PARQUE OESTE" id="8" />
-      <edge source="PARQUE OESTE" target="UNIVERSIDAD REY JUAN CARLOS" id="9" />
-      <edge source="LA POVEDA" target="RIVAS VACIAMADRID" id="10" />
-      <edge source="BARRIO DEL PUERTO" target="COSLADA CENTRAL" id="11" />
-      <edge source="COSLADA CENTRAL" target="LA RAMBLA" id="12" />
-      <edge source="LA RAMBLA" target="SAN FERNANDO" id="13" />
-      <edge source="HOSPITAL DEL HENARES" target="HENARES" id="14" />
-      <edge source="LORANCA" target="MANUELA MALASAÑA" id="15" />
-      <edge source="LORANCA" target="HOSPITAL DE FUENLABRADA" id="16" />
-      <edge source="HOSPITAL DE FUENLABRADA" target="PARQUE EUROPA" id="17" />
-      <edge source="PARQUE EUROPA" target="FUENLABRADA CENTRAL" id="18" />
-      <edge source="FUENLABRADA CENTRAL" target="PARQUE DE LOS ESTADOS" id="19" />
-      <edge source="PARQUE DE LOS ESTADOS" target="ARROYO CULEBRO" id="20" />
-      <edge source="ARROYO CULEBRO" target="CONSERVATORIO" id="21" />
-      <edge source="CONSERVATORIO" target="ALONSO DE MENDOZA" id="22" />
-      <edge source="ALONSO DE MENDOZA" target="GETAFE CENTRAL" id="23" />
-      <edge source="GETAFE CENTRAL" target="JUAN DE LA CIERVA" id="24" />
-      <edge source="JUAN DE LA CIERVA" target="EL CASAR" id="25" />
-      <edge source="EL CASAR" target="LOS ESPARTALES" id="26" />
-      <edge source="LOS ESPARTALES" target="EL BERCIAL" id="27" />
-      <edge source="EL BERCIAL" target="EL CARRASCAL" id="28" />
-      <edge source="EL CARRASCAL" target="JULIAN BESTEIRO" id="29" />
-      <edge source="JULIAN BESTEIRO" target="CASA DEL RELOJ" id="30" />
-      <edge source="CASA DEL RELOJ" target="HOSPITAL SEVERO OCHOA" id="31" />
-      <edge source="HOSPITAL SEVERO OCHOA" target="LEGANES CENTRAL" id="32" />
-      <edge source="LEGANES CENTRAL" target="SAN NICASIO" id="33" />
-      <edge source="SIERRA DE GUADALUPE" target="MIGUEL HERNANDEZ" id="34" />
-      <edge source="SIERRA DE GUADALUPE" target="VILLA DE VALLECAS" id="35" />
-      <edge source="VILLA DE VALLECAS" target="CONGOSTO" id="36" />
-      <edge source="ISLAS FILIPINAS" target="CANAL" id="37" />
-      <edge source="ISLAS FILIPINAS" target="GUZMAN EL BUENO" id="38" />
-      <edge source="GUZMAN EL BUENO" target="FRANCOS RODRIGUEZ" id="39" />
-      <edge source="GUZMAN EL BUENO" target="CUATRO CAMINOS" id="40" />
-      <edge source="GUZMAN EL BUENO" target="VICENTE ALEIXANDRE" id="41" />
-      <edge source="FRANCOS RODRIGUEZ" target="VALDEZARZA" id="42" />
-      <edge source="ANTONIO MACHADO" target="VALDEZARZA" id="43" />
-      <edge source="ANTONIO MACHADO" target="PEÑAGRANDE" id="44" />
-      <edge source="PEÑAGRANDE" target="AVENIDA DE LA ILUSTRACION" id="45" />
-      <edge source="LACOMA" target="AVENIDA DE LA ILUSTRACION" id="46" />
-      <edge source="LACOMA" target="ARROYOFRESNO" id="47" />
-      <edge source="CONGOSTO" target="LA GAVIA" id="48" />
-      <edge source="CANILLEJAS" target="EL CAPRICHO" id="49" />
-      <edge source="CANILLEJAS" target="TORRE ARIAS" id="50" />
-      <edge source="TORRE ARIAS" target="SUANZES" id="51" />
-      <edge source="SUANZES" target="CIUDAD LINEAL" id="52" />
-      <edge source="CIUDAD LINEAL" target="PUEBLO NUEVO" id="53" />
-      <edge source="PUEBLO NUEVO" target="ASCAO" id="54" />
-      <edge source="PUEBLO NUEVO" target="BARRIO DE LA CONCEPCION" id="55" />
-      <edge source="PUEBLO NUEVO" target="QUINTANA" id="56" />
-      <edge source="QUINTANA" target="EL CARMEN" id="57" />
-      <edge source="EL CARMEN" target="VENTAS" id="58" />
-      <edge source="VENTAS" target="DIEGO DE LEON" id="59" />
-      <edge source="VENTAS" target="LA ELIPA" id="60" />
-      <edge source="VENTAS" target="MANUEL BECERRA" id="61" />
-      <edge source="NUÑEZ DE BALBOA" target="DIEGO DE LEON" id="62" />
-      <edge source="NUÑEZ DE BALBOA" target="RUBEN DARIO" id="63" />
-      <edge source="NUÑEZ DE BALBOA" target="AVENIDA DE AMERICA" id="64" />
-      <edge source="NUÑEZ DE BALBOA" target="PRINCIPE DE VERGARA" id="65" />
-      <edge source="RUBEN DARIO" target="ALONSO MARTINEZ" id="66" />
-      <edge source="ALONSO MARTINEZ" target="GREGORIO MARAÑON" id="67" />
-      <edge source="ALONSO MARTINEZ" target="TRIBUNAL" id="68" />
-      <edge source="ALONSO MARTINEZ" target="CHUECA" id="69" />
-      <edge source="ALONSO MARTINEZ" target="BILBAO" id="70" />
-      <edge source="ALONSO MARTINEZ" target="COLON" id="71" />
-      <edge source="CHUECA" target="GRAN VIA" id="72" />
-      <edge source="GRAN VIA" target="TRIBUNAL" id="73" />
-      <edge source="GRAN VIA" target="SOL" id="74" />
-      <edge source="GRAN VIA" target="CALLAO" id="75" />
-      <edge source="DELICIAS" target="LEGAZPI" id="76" />
-      <edge source="DELICIAS" target="PALOS DE LA FRONTERA" id="77" />
-      <edge source="PALOS DE LA FRONTERA" target="EMBAJADORES" id="78" />
-      <edge source="EMBAJADORES" target="LAVAPIES" id="79" />
-      <edge source="SOL" target="TIRSO DE MOLINA" id="80" />
-      <edge source="SOL" target="LAVAPIES" id="81" />
-      <edge source="SOL" target="CALLAO" id="82" />
-      <edge source="SOL" target="SEVILLA" id="83" />
-      <edge source="SOL" target="OPERA" id="84" />
-      <edge source="CALLAO" target="OPERA" id="85" />
-      <edge source="CALLAO" target="PLAZA DE ESPAÑA" id="86" />
-      <edge source="VENTURA RODRIGUEZ" target="PLAZA DE ESPAÑA" id="87" />
-      <edge source="VENTURA RODRIGUEZ" target="ARGÜELLES" id="88" />
-      <edge source="LEGAZPI" target="ALMENDRALES" id="89" />
-      <edge source="LEGAZPI" target="USERA" id="90" />
-      <edge source="LEGAZPI" target="ARGANZUELA-PLANETARIO" id="91" />
-      <edge source="MONCLOA" target="CIUDAD UNIVERSITARIA" id="92" />
-      <edge source="MONCLOA" target="ARGÜELLES" id="93" />
-      <edge source="ARGÜELLES" target="SAN BERNARDO" id="94" />
-      <edge source="ARGÜELLES" target="PRINCIPE PIO" id="95" />
-      <edge source="BILBAO" target="IGLESIA" id="96" />
-      <edge source="BILBAO" target="TRIBUNAL" id="97" />
-      <edge source="BILBAO" target="SAN BERNARDO" id="98" />
-      <edge source="SERRANO" target="COLON" id="99" />
-      <edge source="SERRANO" target="VELAZQUEZ" id="100" />
-      <edge source="OPERA" target="LA LATINA" id="101" />
-      <edge source="OPERA" target="SANTO DOMINGO" id="102" />
-      <edge source="BUENOS AIRES" target="PORTAZGO" id="103" />
-      <edge source="BUENOS AIRES" target="ALTO DEL ARENAL" id="104" />
-      <edge source="MIGUEL HERNANDEZ" target="ALTO DEL ARENAL" id="105" />
-      <edge source="NOVICIADO" target="SANTO DOMINGO" id="106" />
-      <edge source="NOVICIADO" target="SAN BERNARDO" id="107" />
-      <edge source="SAN BERNARDO" target="QUEVEDO" id="108" />
-      <edge source="CANAL" target="ALONSO CANO" id="109" />
-      <edge source="CANAL" target="QUEVEDO" id="110" />
-      <edge source="MANUEL BECERRA" target="GOYA" id="111" />
-      <edge source="MANUEL BECERRA" target="O'DONNELL" id="112" />
-      <edge source="MANUEL BECERRA" target="DIEGO DE LEON" id="113" />
-      <edge source="PRINCIPE DE VERGARA" target="GOYA" id="114" />
-      <edge source="PRINCIPE DE VERGARA" target="RETIRO" id="115" />
-      <edge source="PRINCIPE DE VERGARA" target="IBIZA" id="116" />
-      <edge source="RETIRO" target="BANCO DE ESPAÑA" id="117" />
-      <edge source="PRINCIPE PIO" target="PLAZA DE ESPAÑA" id="118" />
-      <edge source="PRINCIPE PIO" target="LAGO" id="119" />
-      <edge source="PRINCIPE PIO" target="PUERTA DEL ANGEL" id="120" />
-      <edge source="PLAZA DE CASTILLA" target="CHAMARTIN" id="121" />
-      <edge source="PLAZA DE CASTILLA" target="CUZCO" id="122" />
-      <edge source="PLAZA DE CASTILLA" target="VALDEACEDERAS" id="123" />
-      <edge source="PLAZA DE CASTILLA" target="VENTILLA" id="124" />
-      <edge source="PLAZA DE CASTILLA" target="DUQUE DE PASTRANA" id="125" />
-      <edge source="VALDEACEDERAS" target="TETUAN" id="126" />
-      <edge source="ESTRECHO" target="TETUAN" id="127" />
-      <edge source="ESTRECHO" target="ALVARADO" id="128" />
-      <edge source="CUATRO CAMINOS" target="ALVARADO" id="129" />
-      <edge source="CUATRO CAMINOS" target="RIOS ROSAS" id="130" />
-      <edge source="CUATRO CAMINOS" target="NUEVOS MINISTERIOS" id="131" />
-      <edge source="RIOS ROSAS" target="IGLESIA" id="132" />
-      <edge source="TRIBUNAL" target="PLAZA DE ESPAÑA" id="133" />
-      <edge source="TIRSO DE MOLINA" target="ANTON MARTIN" id="134" />
-      <edge source="ANTON MARTIN" target="ESTACION DEL ARTE" id="135" />
-      <edge source="ESTACION DEL ARTE" target="ATOCHA" id="136" />
-      <edge source="ATOCHA" target="MENENDEZ PELAYO" id="137" />
-      <edge source="MENENDEZ PELAYO" target="PACIFICO" id="138" />
-      <edge source="PACIFICO" target="PUENTE DE VALLECAS" id="139" />
-      <edge source="PACIFICO" target="MENDEZ ALVARO" id="140" />
-      <edge source="PACIFICO" target="CONDE DE CASAL" id="141" />
-      <edge source="PUENTE DE VALLECAS" target="NUEVA NUMANCIA" id="142" />
-      <edge source="LAGO" target="BATAN" id="143" />
-      <edge source="BATAN" target="CASA DE CAMPO" id="144" />
-      <edge source="CASA DE CAMPO" target="COLONIA JARDIN" id="145" />
-      <edge source="COLONIA JARDIN" target="AVIACION ESPAÑOLA" id="146" />
-      <edge source="PLAZA ELIPTICA" target="ABRANTES" id="147" />
-      <edge source="PLAZA ELIPTICA" target="OPAÑEL" id="148" />
-      <edge source="PLAZA ELIPTICA" target="USERA" id="149" />
-      <edge source="ABRANTES" target="PAN BENDITO" id="150" />
-      <edge source="PAN BENDITO" target="SAN FRANCISCO" id="151" />
-      <edge source="NUEVOS MINISTERIOS" target="SANTIAGO BERNABEU" id="152" />
-      <edge source="NUEVOS MINISTERIOS" target="GREGORIO MARAÑON" id="153" />
-      <edge source="NUEVOS MINISTERIOS" target="REPUBLICA ARGENTINA" id="154" />
-      <edge source="NUEVOS MINISTERIOS" target="COLOMBIA" id="155" />
-      <edge source="GREGORIO MARAÑON" target="AVENIDA DE AMERICA" id="156" />
-      <edge source="GREGORIO MARAÑON" target="ALONSO CANO" id="157" />
-      <edge source="BARRIO DEL PILAR" target="HERRERA ORIA" id="158" />
-      <edge source="BARRIO DEL PILAR" target="VENTILLA" id="159" />
-      <edge source="DUQUE DE PASTRANA" target="PIO XII" id="160" />
-      <edge source="PIO XII" target="COLOMBIA" id="161" />
-      <edge source="COLOMBIA" target="CONCHA ESPINA" id="162" />
-      <edge source="COLOMBIA" target="PINAR DEL REY" id="163" />
-      <edge source="CONCHA ESPINA" target="CRUZ DEL RAYO" id="164" />
-      <edge source="CRUZ DEL RAYO" target="AVENIDA DE AMERICA" id="165" />
-      <edge source="AVENIDA DE AMERICA" target="CARTAGENA" id="166" />
-      <edge source="AVENIDA DE AMERICA" target="DIEGO DE LEON" id="167" />
-      <edge source="AVENIDA DE AMERICA" target="PROSPERIDAD" id="168" />
-      <edge source="AVENIDA DE AMERICA" target="REPUBLICA ARGENTINA" id="169" />
-      <edge source="IBIZA" target="SAINZ DE BARANDA" id="170" />
-      <edge source="SAINZ DE BARANDA" target="ESTRELLA" id="171" />
-      <edge source="SAINZ DE BARANDA" target="CONDE DE CASAL" id="172" />
-      <edge source="SAINZ DE BARANDA" target="O'DONNELL" id="173" />
-      <edge source="ESTRELLA" target="VINATEROS" id="174" />
-      <edge source="VINATEROS" target="ARTILLEROS" id="175" />
-      <edge source="ARTILLEROS" target="PAVONES" id="176" />
-      <edge source="PAVONES" target="VALDEBERNARDO" id="177" />
-      <edge source="VALDEBERNARDO" target="VICALVARO" id="178" />
-      <edge source="VICALVARO" target="SAN CIPRIANO" id="179" />
-      <edge source="PUERTA DE ARGANDA" target="RIVAS URBANIZACIONES" id="180" />
-      <edge source="FUENCARRAL" target="TRES OLIVOS" id="181" />
-      <edge source="FUENCARRAL" target="BEGOÑA" id="182" />
-      <edge source="BEGOÑA" target="CHAMARTIN" id="183" />
-      <edge source="CHAMARTIN" target="BAMBU" id="184" />
-      <edge source="CUZCO" target="SANTIAGO BERNABEU" id="185" />
-      <edge source="VICENTE ALEIXANDRE" target="CIUDAD UNIVERSITARIA" id="186" />
-      <edge source="PUERTA DEL ANGEL" target="ALTO DE EXTREMADURA" id="187" />
-      <edge source="ALTO DE EXTREMADURA" target="LUCERO" id="188" />
-      <edge source="LUCERO" target="LAGUNA" id="189" />
-      <edge source="LAS MUSAS" target="ESTADIO METROPOLITANO" id="190" />
-      <edge source="LAS MUSAS" target="SAN BLAS" id="191" />
-      <edge source="SAN BLAS" target="SIMANCAS" id="192" />
-      <edge source="SIMANCAS" target="GARCIA NOBLEJAS" id="193" />
-      <edge source="ASCAO" target="GARCIA NOBLEJAS" id="194" />
-      <edge source="PARQUE DE LAS AVENIDAS" target="BARRIO DE LA CONCEPCION" id="195" />
-      <edge source="PARQUE DE LAS AVENIDAS" target="CARTAGENA" id="196" />
-      <edge source="FERIA DE MADRID" target="MAR DE CRISTAL" id="197" />
-      <edge source="FERIA DE MADRID" target="AEROPUERTO T1-T2-T3" id="198" />
-      <edge source="HERRERA ORIA" target="MIRASIERRA" id="199" />
-      <edge source="PUERTA DE TOLEDO" target="LA LATINA" id="200" />
-      <edge source="PUERTA DE TOLEDO" target="ACACIAS" id="201" />
-      <edge source="LAGUNA" target="CARPETANA" id="202" />
-      <edge source="CARPETANA" target="OPORTO" id="203" />
-      <edge source="OPAÑEL" target="OPORTO" id="204" />
-      <edge source="MENDEZ ALVARO" target="ARGANZUELA-PLANETARIO" id="205" />
-      <edge source="PIRAMIDES" target="ACACIAS" id="206" />
-      <edge source="PIRAMIDES" target="MARQUES DE VADILLO" id="207" />
-      <edge source="MARQUES DE VADILLO" target="URGEL" id="208" />
-      <edge source="URGEL" target="OPORTO" id="209" />
-      <edge source="OPORTO" target="VISTA ALEGRE" id="210" />
-      <edge source="VISTA ALEGRE" target="CARABANCHEL" id="211" />
-      <edge source="CARABANCHEL" target="EUGENIA DE MONTIJO" id="212" />
-      <edge source="DIEGO DE LEON" target="LISTA" id="213" />
-      <edge source="GOYA" target="VELAZQUEZ" id="214" />
-      <edge source="GOYA" target="LISTA" id="215" />
-      <edge source="PROSPERIDAD" target="ALFONSO XIII" id="216" />
-      <edge source="ALFONSO XIII" target="AVENIDA DE LA PAZ" id="217" />
-      <edge source="ARTURO SORIA" target="AVENIDA DE LA PAZ" id="218" />
-      <edge source="ARTURO SORIA" target="ESPERANZA" id="219" />
-      <edge source="ESPERANZA" target="CANILLAS" id="220" />
-      <edge source="CANILLAS" target="MAR DE CRISTAL" id="221" />
-      <edge source="MAR DE CRISTAL" target="SAN LORENZO" id="222" />
-      <edge source="MAR DE CRISTAL" target="PINAR DEL REY" id="223" />
-      <edge source="SAN LORENZO" target="PARQUE DE SANTA MARIA" id="224" />
-      <edge source="PARQUE DE SANTA MARIA" target="HORTALEZA" id="225" />
-      <edge source="NUEVA NUMANCIA" target="PORTAZGO" id="226" />
-      <edge source="BANCO DE ESPAÑA" target="SEVILLA" id="227" />
-      <edge source="AEROPUERTO T1-T2-T3" target="BARAJAS" id="228" />
-      <edge source="EUGENIA DE MONTIJO" target="ALUCHE" id="229" />
-      <edge source="ALUCHE" target="EMPALME" id="230" />
-      <edge source="EMPALME" target="CAMPAMENTO" id="231" />
-      <edge source="CUATRO VIENTOS" target="AVIACION ESPAÑOLA" id="232" />
-      <edge source="BAMBU" target="PINAR DE CHAMARTIN" id="233" />
-      <edge source="LA ELIPA" target="LA ALMUDENA" id="234" />
-      <edge source="HORTALEZA" target="MANOTERAS" id="235" />
-      <edge source="MONTECARMELO" target="LAS TABLAS" id="236" />
-      <edge source="LAS TABLAS" target="RONDA DE LA COMUNICACION" id="237" />
-      <edge source="ALAMEDA DE OSUNA" target="EL CAPRICHO" id="238" />
-      <edge source="SAN FRANCISCO" target="CARABANCHEL ALTO" id="239" />
-      <edge source="CARABANCHEL ALTO" target="LA PESETA" id="240" />
-      <edge source="ALMENDRALES" target="HOSPITAL 12 DE OCTUBRE" id="241" />
-      <edge source="HOSPITAL 12 DE OCTUBRE" target="SAN FERMIN-ORCASUR" id="242" />
-      <edge source="SAN FERMIN-ORCASUR" target="CIUDAD DE LOS ANGELES" id="243" />
-      <edge source="CIUDAD DE LOS ANGELES" target="VILLAVERDE BAJO CRUCE" id="244" />
-      <edge source="VILLAVERDE BAJO CRUCE" target="SAN CRISTOBAL" id="245" />
-      <edge source="SAN CRISTOBAL" target="VILLAVERDE ALTO" id="246" />
-      <edge source="LA GAVIA" target="LAS SUERTES" id="247" />
-      <edge source="LA ALMUDENA" target="ALSACIA" id="248" />
-      <edge source="ALSACIA" target="AVENIDA DE GUADALAJARA" id="249" />
-      <edge source="AVENIDA DE GUADALAJARA" target="LAS ROSAS" id="250" />
-      <edge source="MIRASIERRA" target="PACO DE LUCIA" id="251" />
-      <edge source="HOSPITAL DE MOSTOLES" target="PRADILLO" id="252" />
-      <edge source="HOSPITAL DE MOSTOLES" target="MANUELA MALASAÑA" id="253" />
-      <edge source="UNIVERSIDAD REY JUAN CARLOS" target="MOSTOLES CENTRAL" id="254" />
-      <edge source="MOSTOLES CENTRAL" target="PRADILLO" id="255" />
-      <edge source="RIVAS URBANIZACIONES" target="RIVAS FUTURA" id="256" />
-      <edge source="RIVAS VACIAMADRID" target="RIVAS FUTURA" id="257" />
-      <edge source="SAN FERNANDO" target="JARAMA" id="258" />
-      <edge source="JARAMA" target="HENARES" id="259" />
-      <edge source="BAUNATAL" target="REYES CATOLICOS" id="260" />
-      <edge source="REYES CATOLICOS" target="HOSPITAL INFANTA SOFIA" id="261" />
+      <edge source="LA GRANJA" target="LA MORALEJA" id="0">
+        <attvalues>
+          <attvalue for="2" value="10b" />
+          <attvalue for="3" value="55.43664629394459" />
+        </attvalues>
+      </edge>
+      <edge source="LA GRANJA" target="RONDA DE LA COMUNICACION" id="1">
+        <attvalues>
+          <attvalue for="2" value="10b" />
+          <attvalue for="3" value="40.298003096674556" />
+        </attvalues>
+      </edge>
+      <edge source="LA MORALEJA" target="MARQUES DE LA VALDAVIA" id="2">
+        <attvalues>
+          <attvalue for="2" value="10b" />
+          <attvalue for="3" value="35.658970312736685" />
+        </attvalues>
+      </edge>
+      <edge source="MARQUES DE LA VALDAVIA" target="MANUEL DE FALLA" id="3">
+        <attvalues>
+          <attvalue for="2" value="10b" />
+          <attvalue for="3" value="40.73653354320683" />
+        </attvalues>
+      </edge>
+      <edge source="MANUEL DE FALLA" target="BAUNATAL" id="4">
+        <attvalues>
+          <attvalue for="2" value="10b" />
+          <attvalue for="3" value="29.806140497283486" />
+        </attvalues>
+      </edge>
+      <edge source="JOAQUIN VILUMBRALES" target="CUATRO VIENTOS" id="5">
+        <attvalues>
+          <attvalue for="2" value="10a" />
+          <attvalue for="3" value="105.15308627461953" />
+        </attvalues>
+      </edge>
+      <edge source="JOAQUIN VILUMBRALES" target="PUERTA DEL SUR" id="6">
+        <attvalues>
+          <attvalue for="2" value="10a" />
+          <attvalue for="3" value="23.258960801906166" />
+        </attvalues>
+      </edge>
+      <edge source="PUERTA DEL SUR" target="SAN NICASIO" id="7">
+        <attvalues>
+          <attvalue for="2" value="12-1" />
+          <attvalue for="3" value="83.05820379965458" />
+        </attvalues>
+      </edge>
+      <edge source="PUERTA DEL SUR" target="PARQUE LISBOA" id="8">
+        <attvalues>
+          <attvalue for="2" value="12-1" />
+          <attvalue for="3" value="83.05820379965458" />
+        </attvalues>
+      </edge>
+      <edge source="PARQUE LISBOA" target="ALCORCON CENTRAL" id="9">
+        <attvalues>
+          <attvalue for="2" value="12-1" />
+          <attvalue for="3" value="31.55650135701949" />
+        </attvalues>
+      </edge>
+      <edge source="ALCORCON CENTRAL" target="PARQUE OESTE" id="10">
+        <attvalues>
+          <attvalue for="2" value="12-1" />
+          <attvalue for="3" value="38.662472242783124" />
+        </attvalues>
+      </edge>
+      <edge source="PARQUE OESTE" target="UNIVERSIDAD REY JUAN CARLOS" id="11">
+        <attvalues>
+          <attvalue for="2" value="12-1" />
+          <attvalue for="3" value="64.34159881569208" />
+        </attvalues>
+      </edge>
+      <edge source="ARGANDA DEL REY" target="LA POVEDA" id="12">
+        <attvalues>
+          <attvalue for="2" value="9B" />
+          <attvalue for="3" value="68.2350938535149" />
+        </attvalues>
+      </edge>
+      <edge source="LA POVEDA" target="RIVAS VACIAMADRID" id="13">
+        <attvalues>
+          <attvalue for="2" value="9B" />
+          <attvalue for="3" value="80.43908722856092" />
+        </attvalues>
+      </edge>
+      <edge source="BARRIO DEL PUERTO" target="COSLADA CENTRAL" id="14">
+        <attvalues>
+          <attvalue for="2" value="7b" />
+          <attvalue for="3" value="20.72489814260036" />
+        </attvalues>
+      </edge>
+      <edge source="BARRIO DEL PUERTO" target="ESTADIO METROPOLITANO" id="15">
+        <attvalues>
+          <attvalue for="2" value="7b" />
+          <attvalue for="3" value="88.82485020970641" />
+        </attvalues>
+      </edge>
+      <edge source="COSLADA CENTRAL" target="LA RAMBLA" id="16">
+        <attvalues>
+          <attvalue for="2" value="7b" />
+          <attvalue for="3" value="40.24815158777711" />
+        </attvalues>
+      </edge>
+      <edge source="LA RAMBLA" target="SAN FERNANDO" id="17">
+        <attvalues>
+          <attvalue for="2" value="7b" />
+          <attvalue for="3" value="33.2568154583583" />
+        </attvalues>
+      </edge>
+      <edge source="HOSPITAL DEL HENARES" target="HENARES" id="18">
+        <attvalues>
+          <attvalue for="2" value="7b" />
+          <attvalue for="3" value="20.579080287597364" />
+        </attvalues>
+      </edge>
+      <edge source="LORANCA" target="MANUELA MALASAÑA" id="19">
+        <attvalues>
+          <attvalue for="2" value="12-1" />
+          <attvalue for="3" value="71.61127559832224" />
+        </attvalues>
+      </edge>
+      <edge source="LORANCA" target="HOSPITAL DE FUENLABRADA" id="20">
+        <attvalues>
+          <attvalue for="2" value="12-1" />
+          <attvalue for="3" value="56.19879101899827" />
+        </attvalues>
+      </edge>
+      <edge source="HOSPITAL DE FUENLABRADA" target="PARQUE EUROPA" id="21">
+        <attvalues>
+          <attvalue for="2" value="12-1" />
+          <attvalue for="3" value="17.76415001233654" />
+        </attvalues>
+      </edge>
+      <edge source="PARQUE EUROPA" target="FUENLABRADA CENTRAL" id="22">
+        <attvalues>
+          <attvalue for="2" value="12-1" />
+          <attvalue for="3" value="21.656550703182827" />
+        </attvalues>
+      </edge>
+      <edge source="FUENLABRADA CENTRAL" target="PARQUE DE LOS ESTADOS" id="23">
+        <attvalues>
+          <attvalue for="2" value="12-1" />
+          <attvalue for="3" value="32.07720207253886" />
+        </attvalues>
+      </edge>
+      <edge source="PARQUE DE LOS ESTADOS" target="ARROYO CULEBRO" id="24">
+        <attvalues>
+          <attvalue for="2" value="12-1" />
+          <attvalue for="3" value="67.10848754009376" />
+        </attvalues>
+      </edge>
+      <edge source="ARROYO CULEBRO" target="CONSERVATORIO" id="25">
+        <attvalues>
+          <attvalue for="2" value="12-1" />
+          <attvalue for="3" value="23.455267702936098" />
+        </attvalues>
+      </edge>
+      <edge source="CONSERVATORIO" target="ALONSO DE MENDOZA" id="26">
+        <attvalues>
+          <attvalue for="2" value="12-1" />
+          <attvalue for="3" value="29.999851961509993" />
+        </attvalues>
+      </edge>
+      <edge source="ALONSO DE MENDOZA" target="GETAFE CENTRAL" id="27">
+        <attvalues>
+          <attvalue for="2" value="12-1" />
+          <attvalue for="3" value="32.54781643227239" />
+        </attvalues>
+      </edge>
+      <edge source="GETAFE CENTRAL" target="JUAN DE LA CIERVA" id="28">
+        <attvalues>
+          <attvalue for="2" value="12-1" />
+          <attvalue for="3" value="32.66025166543301" />
+        </attvalues>
+      </edge>
+      <edge source="JUAN DE LA CIERVA" target="EL CASAR" id="29">
+        <attvalues>
+          <attvalue for="2" value="12-1" />
+          <attvalue for="3" value="38.788255613126076" />
+        </attvalues>
+      </edge>
+      <edge source="EL CASAR" target="LOS ESPARTALES" id="30">
+        <attvalues>
+          <attvalue for="2" value="12-1" />
+          <attvalue for="3" value="20.173871206513695" />
+        </attvalues>
+      </edge>
+      <edge source="LOS ESPARTALES" target="EL BERCIAL" id="31">
+        <attvalues>
+          <attvalue for="2" value="12-1" />
+          <attvalue for="3" value="29.60481125092524" />
+        </attvalues>
+      </edge>
+      <edge source="EL BERCIAL" target="EL CARRASCAL" id="32">
+        <attvalues>
+          <attvalue for="2" value="12-1" />
+          <attvalue for="3" value="38.10308413520848" />
+        </attvalues>
+      </edge>
+      <edge source="EL CARRASCAL" target="JULIAN BESTEIRO" id="33">
+        <attvalues>
+          <attvalue for="2" value="12-1" />
+          <attvalue for="3" value="26.11754256106588" />
+        </attvalues>
+      </edge>
+      <edge source="JULIAN BESTEIRO" target="CASA DEL RELOJ" id="34">
+        <attvalues>
+          <attvalue for="2" value="12-1" />
+          <attvalue for="3" value="33.64966691339748" />
+        </attvalues>
+      </edge>
+      <edge source="CASA DEL RELOJ" target="HOSPITAL SEVERO OCHOA" id="35">
+        <attvalues>
+          <attvalue for="2" value="12-1" />
+          <attvalue for="3" value="21.028374043918085" />
+        </attvalues>
+      </edge>
+      <edge source="HOSPITAL SEVERO OCHOA" target="LEGANES CENTRAL" id="36">
+        <attvalues>
+          <attvalue for="2" value="12-1" />
+          <attvalue for="3" value="27.15016037503084" />
+        </attvalues>
+      </edge>
+      <edge source="LEGANES CENTRAL" target="SAN NICASIO" id="37">
+        <attvalues>
+          <attvalue for="2" value="12-1" />
+          <attvalue for="3" value="28.741228719467063" />
+        </attvalues>
+      </edge>
+      <edge source="LA FORTUNA" target="LA PESETA" id="38">
+        <attvalues>
+          <attvalue for="2" value="11" />
+          <attvalue for="3" value="88.88419306184012" />
+        </attvalues>
+      </edge>
+      <edge source="SIERRA DE GUADALUPE" target="MIGUEL HERNANDEZ" id="39">
+        <attvalues>
+          <attvalue for="2" value="1" />
+          <attvalue for="3" value="58.579962111220816" />
+        </attvalues>
+      </edge>
+      <edge source="SIERRA DE GUADALUPE" target="VILLA DE VALLECAS" id="40">
+        <attvalues>
+          <attvalue for="2" value="1" />
+          <attvalue for="3" value="21.040108435589374" />
+        </attvalues>
+      </edge>
+      <edge source="VILLA DE VALLECAS" target="CONGOSTO" id="41">
+        <attvalues>
+          <attvalue for="2" value="1" />
+          <attvalue for="3" value="35.02246006128079" />
+        </attvalues>
+      </edge>
+      <edge source="ISLAS FILIPINAS" target="CANAL" id="42">
+        <attvalues>
+          <attvalue for="2" value="7a" />
+          <attvalue for="3" value="27.034065538350738" />
+        </attvalues>
+      </edge>
+      <edge source="ISLAS FILIPINAS" target="GUZMAN EL BUENO" id="43">
+        <attvalues>
+          <attvalue for="2" value="7a" />
+          <attvalue for="3" value="52.87709758732445" />
+        </attvalues>
+      </edge>
+      <edge source="GUZMAN EL BUENO" target="FRANCOS RODRIGUEZ" id="44">
+        <attvalues>
+          <attvalue for="2" value="7a" />
+          <attvalue for="3" value="40.50500540151243" />
+        </attvalues>
+      </edge>
+      <edge source="GUZMAN EL BUENO" target="CUATRO CAMINOS" id="45">
+        <attvalues>
+          <attvalue for="2" value="6-1" />
+          <attvalue for="3" value="29.022807017543858" />
+        </attvalues>
+      </edge>
+      <edge source="GUZMAN EL BUENO" target="VICENTE ALEIXANDRE" id="46">
+        <attvalues>
+          <attvalue for="2" value="6-1" />
+          <attvalue for="3" value="24.86280701754386" />
+        </attvalues>
+      </edge>
+      <edge source="FRANCOS RODRIGUEZ" target="VALDEZARZA" id="47">
+        <attvalues>
+          <attvalue for="2" value="7a" />
+          <attvalue for="3" value="43.25271876125315" />
+        </attvalues>
+      </edge>
+      <edge source="ANTONIO MACHADO" target="VALDEZARZA" id="48">
+        <attvalues>
+          <attvalue for="2" value="7a" />
+          <attvalue for="3" value="31.925027007562118" />
+        </attvalues>
+      </edge>
+      <edge source="ANTONIO MACHADO" target="PEÑAGRANDE" id="49">
+        <attvalues>
+          <attvalue for="2" value="7a" />
+          <attvalue for="3" value="23.587000360100827" />
+        </attvalues>
+      </edge>
+      <edge source="PEÑAGRANDE" target="AVENIDA DE LA ILUSTRACION" id="50">
+        <attvalues>
+          <attvalue for="2" value="7a" />
+          <attvalue for="3" value="19.779438242707958" />
+        </attvalues>
+      </edge>
+      <edge source="LACOMA" target="AVENIDA DE LA ILUSTRACION" id="51">
+        <attvalues>
+          <attvalue for="2" value="7a" />
+          <attvalue for="3" value="24.475405113431762" />
+        </attvalues>
+      </edge>
+      <edge source="LACOMA" target="ARROYOFRESNO" id="52">
+        <attvalues>
+          <attvalue for="2" value="7a" />
+          <attvalue for="3" value="25.391436802304643" />
+        </attvalues>
+      </edge>
+      <edge source="ARROYOFRESNO" target="PITIS" id="53">
+        <attvalues>
+          <attvalue for="2" value="7a" />
+          <attvalue for="3" value="20.560853438962912" />
+        </attvalues>
+      </edge>
+      <edge source="CONGOSTO" target="LA GAVIA" id="54">
+        <attvalues>
+          <attvalue for="2" value="1" />
+          <attvalue for="3" value="25.702226783692463" />
+        </attvalues>
+      </edge>
+      <edge source="CANILLEJAS" target="EL CAPRICHO" id="55">
+        <attvalues>
+          <attvalue for="2" value="5" />
+          <attvalue for="3" value="60.72434131736528" />
+        </attvalues>
+      </edge>
+      <edge source="CANILLEJAS" target="TORRE ARIAS" id="56">
+        <attvalues>
+          <attvalue for="2" value="5" />
+          <attvalue for="3" value="42.131950384944396" />
+        </attvalues>
+      </edge>
+      <edge source="TORRE ARIAS" target="SUANZES" id="57">
+        <attvalues>
+          <attvalue for="2" value="5" />
+          <attvalue for="3" value="33.57604790419162" />
+        </attvalues>
+      </edge>
+      <edge source="SUANZES" target="CIUDAD LINEAL" id="58">
+        <attvalues>
+          <attvalue for="2" value="5" />
+          <attvalue for="3" value="40.33528656971771" />
+        </attvalues>
+      </edge>
+      <edge source="CIUDAD LINEAL" target="PUEBLO NUEVO" id="59">
+        <attvalues>
+          <attvalue for="2" value="5" />
+          <attvalue for="3" value="23.064114627887086" />
+        </attvalues>
+      </edge>
+      <edge source="PUEBLO NUEVO" target="ASCAO" id="60">
+        <attvalues>
+          <attvalue for="2" value="7a" />
+          <attvalue for="3" value="25.4234425639179" />
+        </attvalues>
+      </edge>
+      <edge source="PUEBLO NUEVO" target="BARRIO DE LA CONCEPCION" id="61">
+        <attvalues>
+          <attvalue for="2" value="7a" />
+          <attvalue for="3" value="35.17129996398992" />
+        </attvalues>
+      </edge>
+      <edge source="PUEBLO NUEVO" target="QUINTANA" id="62">
+        <attvalues>
+          <attvalue for="2" value="5" />
+          <attvalue for="3" value="22.67715996578272" />
+        </attvalues>
+      </edge>
+      <edge source="QUINTANA" target="EL CARMEN" id="63">
+        <attvalues>
+          <attvalue for="2" value="5" />
+          <attvalue for="3" value="30.53746792130026" />
+        </attvalues>
+      </edge>
+      <edge source="EL CARMEN" target="VENTAS" id="64">
+        <attvalues>
+          <attvalue for="2" value="5" />
+          <attvalue for="3" value="29.851582549187338" />
+        </attvalues>
+      </edge>
+      <edge source="VENTAS" target="DIEGO DE LEON" id="65">
+        <attvalues>
+          <attvalue for="2" value="5" />
+          <attvalue for="3" value="37.41980325064158" />
+        </attvalues>
+      </edge>
+      <edge source="VENTAS" target="LA ELIPA" id="66">
+        <attvalues>
+          <attvalue for="2" value="2" />
+          <attvalue for="3" value="52.66420313790256" />
+        </attvalues>
+      </edge>
+      <edge source="VENTAS" target="MANUEL BECERRA" id="67">
+        <attvalues>
+          <attvalue for="2" value="2" />
+          <attvalue for="3" value="25.921965317919078" />
+        </attvalues>
+      </edge>
+      <edge source="NUÑEZ DE BALBOA" target="DIEGO DE LEON" id="68">
+        <attvalues>
+          <attvalue for="2" value="5" />
+          <attvalue for="3" value="28.655859709153127" />
+        </attvalues>
+      </edge>
+      <edge source="NUÑEZ DE BALBOA" target="RUBEN DARIO" id="69">
+        <attvalues>
+          <attvalue for="2" value="5" />
+          <attvalue for="3" value="28.535543199315654" />
+        </attvalues>
+      </edge>
+      <edge source="NUÑEZ DE BALBOA" target="AVENIDA DE AMERICA" id="70">
+        <attvalues>
+          <attvalue for="2" value="9A" />
+          <attvalue for="3" value="27.156956359567324" />
+        </attvalues>
+      </edge>
+      <edge source="NUÑEZ DE BALBOA" target="PRINCIPE DE VERGARA" id="71">
+        <attvalues>
+          <attvalue for="2" value="9A" />
+          <attvalue for="3" value="30.799365908243193" />
+        </attvalues>
+      </edge>
+      <edge source="RUBEN DARIO" target="ALONSO MARTINEZ" id="72">
+        <attvalues>
+          <attvalue for="2" value="5" />
+          <attvalue for="3" value="29.96509837467921" />
+        </attvalues>
+      </edge>
+      <edge source="ALONSO MARTINEZ" target="GREGORIO MARAÑON" id="73">
+        <attvalues>
+          <attvalue for="2" value="10a" />
+          <attvalue for="3" value="36.676172877640106" />
+        </attvalues>
+      </edge>
+      <edge source="ALONSO MARTINEZ" target="TRIBUNAL" id="74">
+        <attvalues>
+          <attvalue for="2" value="10a" />
+          <attvalue for="3" value="19.2474152749339" />
+        </attvalues>
+      </edge>
+      <edge source="ALONSO MARTINEZ" target="CHUECA" id="75">
+        <attvalues>
+          <attvalue for="2" value="5" />
+          <attvalue for="3" value="30.474636441402907" />
+        </attvalues>
+      </edge>
+      <edge source="ALONSO MARTINEZ" target="BILBAO" id="76">
+        <attvalues>
+          <attvalue for="2" value="4" />
+          <attvalue for="3" value="19.936495027455887" />
+        </attvalues>
+      </edge>
+      <edge source="ALONSO MARTINEZ" target="COLON" id="77">
+        <attvalues>
+          <attvalue for="2" value="4" />
+          <attvalue for="3" value="16.474754683318462" />
+        </attvalues>
+      </edge>
+      <edge source="CHUECA" target="GRAN VIA" id="78">
+        <attvalues>
+          <attvalue for="2" value="5" />
+          <attvalue for="3" value="20.097562018819502" />
+        </attvalues>
+      </edge>
+      <edge source="GRAN VIA" target="TRIBUNAL" id="79">
+        <attvalues>
+          <attvalue for="2" value="1" />
+          <attvalue for="3" value="31.035271336345993" />
+        </attvalues>
+      </edge>
+      <edge source="GRAN VIA" target="SOL" id="80">
+        <attvalues>
+          <attvalue for="2" value="1" />
+          <attvalue for="3" value="14.423878475855181" />
+        </attvalues>
+      </edge>
+      <edge source="GRAN VIA" target="CALLAO" id="81">
+        <attvalues>
+          <attvalue for="2" value="5" />
+          <attvalue for="3" value="14.664670658682637" />
+        </attvalues>
+      </edge>
+      <edge source="DELICIAS" target="LEGAZPI" id="82">
+        <attvalues>
+          <attvalue for="2" value="3" />
+          <attvalue for="3" value="29.536276844017607" />
+        </attvalues>
+      </edge>
+      <edge source="DELICIAS" target="PALOS DE LA FRONTERA" id="83">
+        <attvalues>
+          <attvalue for="2" value="3" />
+          <attvalue for="3" value="21.321018495551105" />
+        </attvalues>
+      </edge>
+      <edge source="PALOS DE LA FRONTERA" target="EMBAJADORES" id="84">
+        <attvalues>
+          <attvalue for="2" value="3" />
+          <attvalue for="3" value="31.194308421803644" />
+        </attvalues>
+      </edge>
+      <edge source="EMBAJADORES" target="LAVAPIES" id="85">
+        <attvalues>
+          <attvalue for="2" value="3" />
+          <attvalue for="3" value="18.258938288803083" />
+        </attvalues>
+      </edge>
+      <edge source="SOL" target="TIRSO DE MOLINA" id="86">
+        <attvalues>
+          <attvalue for="2" value="1" />
+          <attvalue for="3" value="28.53985881696855" />
+        </attvalues>
+      </edge>
+      <edge source="SOL" target="LAVAPIES" id="87">
+        <attvalues>
+          <attvalue for="2" value="3" />
+          <attvalue for="3" value="38.129757848033535" />
+        </attvalues>
+      </edge>
+      <edge source="SOL" target="CALLAO" id="88">
+        <attvalues>
+          <attvalue for="2" value="3" />
+          <attvalue for="3" value="18.037109002656262" />
+        </attvalues>
+      </edge>
+      <edge source="SOL" target="SEVILLA" id="89">
+        <attvalues>
+          <attvalue for="2" value="2" />
+          <attvalue for="3" value="14.0289843104872" />
+        </attvalues>
+      </edge>
+      <edge source="SOL" target="OPERA" id="90">
+        <attvalues>
+          <attvalue for="2" value="2" />
+          <attvalue for="3" value="20.88951279933939" />
+        </attvalues>
+      </edge>
+      <edge source="CALLAO" target="OPERA" id="91">
+        <attvalues>
+          <attvalue for="2" value="5" />
+          <attvalue for="3" value="21.231779298545767" />
+        </attvalues>
+      </edge>
+      <edge source="CALLAO" target="PLAZA DE ESPAÑA" id="92">
+        <attvalues>
+          <attvalue for="2" value="3" />
+          <attvalue for="3" value="22.676036338627092" />
+        </attvalues>
+      </edge>
+      <edge source="VENTURA RODRIGUEZ" target="PLAZA DE ESPAÑA" id="93">
+        <attvalues>
+          <attvalue for="2" value="3" />
+          <attvalue for="3" value="18.452982798415086" />
+        </attvalues>
+      </edge>
+      <edge source="VENTURA RODRIGUEZ" target="ARGÜELLES" id="94">
+        <attvalues>
+          <attvalue for="2" value="3" />
+          <attvalue for="3" value="18.39792913057819" />
+        </attvalues>
+      </edge>
+      <edge source="LEGAZPI" target="ALMENDRALES" id="95">
+        <attvalues>
+          <attvalue for="2" value="3" />
+          <attvalue for="3" value="42.63760304121649" />
+        </attvalues>
+      </edge>
+      <edge source="LEGAZPI" target="USERA" id="96">
+        <attvalues>
+          <attvalue for="2" value="6-1" />
+          <attvalue for="3" value="38.59345029239766" />
+        </attvalues>
+      </edge>
+      <edge source="LEGAZPI" target="ARGANZUELA-PLANETARIO" id="97">
+        <attvalues>
+          <attvalue for="2" value="6-1" />
+          <attvalue for="3" value="21.343118908382067" />
+        </attvalues>
+      </edge>
+      <edge source="MONCLOA" target="ARGÜELLES" id="98">
+        <attvalues>
+          <attvalue for="2" value="6-1" />
+          <attvalue for="3" value="21.565730994152045" />
+        </attvalues>
+      </edge>
+      <edge source="MONCLOA" target="CIUDAD UNIVERSITARIA" id="99">
+        <attvalues>
+          <attvalue for="2" value="6-1" />
+          <attvalue for="3" value="51.085653021442496" />
+        </attvalues>
+      </edge>
+      <edge source="ARGÜELLES" target="SAN BERNARDO" id="100">
+        <attvalues>
+          <attvalue for="2" value="4" />
+          <attvalue for="3" value="36.31346565482301" />
+        </attvalues>
+      </edge>
+      <edge source="ARGÜELLES" target="PRINCIPE PIO" id="101">
+        <attvalues>
+          <attvalue for="2" value="6-1" />
+          <attvalue for="3" value="52.7880701754386" />
+        </attvalues>
+      </edge>
+      <edge source="BILBAO" target="IGLESIA" id="102">
+        <attvalues>
+          <attvalue for="2" value="1" />
+          <attvalue for="3" value="31.184058644926303" />
+        </attvalues>
+      </edge>
+      <edge source="BILBAO" target="TRIBUNAL" id="103">
+        <attvalues>
+          <attvalue for="2" value="1" />
+          <attvalue for="3" value="20.01977518509029" />
+        </attvalues>
+      </edge>
+      <edge source="BILBAO" target="SAN BERNARDO" id="104">
+        <attvalues>
+          <attvalue for="2" value="4" />
+          <attvalue for="3" value="17.38467638263198" />
+        </attvalues>
+      </edge>
+      <edge source="SERRANO" target="COLON" id="105">
+        <attvalues>
+          <attvalue for="2" value="4" />
+          <attvalue for="3" value="22.197100802854592" />
+        </attvalues>
+      </edge>
+      <edge source="SERRANO" target="VELAZQUEZ" id="106">
+        <attvalues>
+          <attvalue for="2" value="4" />
+          <attvalue for="3" value="16.169045495093666" />
+        </attvalues>
+      </edge>
+      <edge source="OPERA" target="LA LATINA" id="107">
+        <attvalues>
+          <attvalue for="2" value="5" />
+          <attvalue for="3" value="32.27378100940975" />
+        </attvalues>
+      </edge>
+      <edge source="OPERA" target="SANTO DOMINGO" id="108">
+        <attvalues>
+          <attvalue for="2" value="2" />
+          <attvalue for="3" value="18.005862923203964" />
+        </attvalues>
+      </edge>
+      <edge source="OPERA" target="PRINCIPE PIO" id="109">
+        <attvalues>
+          <attvalue for="2" value="R" />
+          <attvalue for="3" value="52.33687700647334" />
+        </attvalues>
+      </edge>
+      <edge source="BUENOS AIRES" target="PORTAZGO" id="110">
+        <attvalues>
+          <attvalue for="2" value="1" />
+          <attvalue for="3" value="24.29756143976272" />
+        </attvalues>
+      </edge>
+      <edge source="BUENOS AIRES" target="ALTO DEL ARENAL" id="111">
+        <attvalues>
+          <attvalue for="2" value="1" />
+          <attvalue for="3" value="28.51887926231638" />
+        </attvalues>
+      </edge>
+      <edge source="MIGUEL HERNANDEZ" target="ALTO DEL ARENAL" id="112">
+        <attvalues>
+          <attvalue for="2" value="1" />
+          <attvalue for="3" value="27.341704441564108" />
+        </attvalues>
+      </edge>
+      <edge source="NOVICIADO" target="SANTO DOMINGO" id="113">
+        <attvalues>
+          <attvalue for="2" value="2" />
+          <attvalue for="3" value="16.58596201486375" />
+        </attvalues>
+      </edge>
+      <edge source="NOVICIADO" target="SAN BERNARDO" id="114">
+        <attvalues>
+          <attvalue for="2" value="2" />
+          <attvalue for="3" value="25.91680429397193" />
+        </attvalues>
+      </edge>
+      <edge source="SAN BERNARDO" target="QUEVEDO" id="115">
+        <attvalues>
+          <attvalue for="2" value="2" />
+          <attvalue for="3" value="12.247151114781172" />
+        </attvalues>
+      </edge>
+      <edge source="CANAL" target="ALONSO CANO" id="116">
+        <attvalues>
+          <attvalue for="2" value="7a" />
+          <attvalue for="3" value="17.277133597407275" />
+        </attvalues>
+      </edge>
+      <edge source="CANAL" target="QUEVEDO" id="117">
+        <attvalues>
+          <attvalue for="2" value="2" />
+          <attvalue for="3" value="29.18464079273328" />
+        </attvalues>
+      </edge>
+      <edge source="CANAL" target="CUATRO CAMINOS" id="118">
+        <attvalues>
+          <attvalue for="2" value="2" />
+          <attvalue for="3" value="30.894838976052853" />
+        </attvalues>
+      </edge>
+      <edge source="MANUEL BECERRA" target="GOYA" id="119">
+        <attvalues>
+          <attvalue for="2" value="2" />
+          <attvalue for="3" value="26.05458298926507" />
+        </attvalues>
+      </edge>
+      <edge source="MANUEL BECERRA" target="O'DONNELL" id="120">
+        <attvalues>
+          <attvalue for="2" value="6-1" />
+          <attvalue for="3" value="24.00140350877193" />
+        </attvalues>
+      </edge>
+      <edge source="MANUEL BECERRA" target="DIEGO DE LEON" id="121">
+        <attvalues>
+          <attvalue for="2" value="6-1" />
+          <attvalue for="3" value="28.745575048732942" />
+        </attvalues>
+      </edge>
+      <edge source="PRINCIPE DE VERGARA" target="GOYA" id="122">
+        <attvalues>
+          <attvalue for="2" value="2" />
+          <attvalue for="3" value="16.843559042113956" />
+        </attvalues>
+      </edge>
+      <edge source="PRINCIPE DE VERGARA" target="RETIRO" id="123">
+        <attvalues>
+          <attvalue for="2" value="2" />
+          <attvalue for="3" value="22.449215524360035" />
+        </attvalues>
+      </edge>
+      <edge source="PRINCIPE DE VERGARA" target="IBIZA" id="124">
+        <attvalues>
+          <attvalue for="2" value="9A" />
+          <attvalue for="3" value="26.801268183513617" />
+        </attvalues>
+      </edge>
+      <edge source="RETIRO" target="BANCO DE ESPAÑA" id="125">
+        <attvalues>
+          <attvalue for="2" value="2" />
+          <attvalue for="3" value="30.845251857968623" />
+        </attvalues>
+      </edge>
+      <edge source="PRINCIPE PIO" target="PLAZA DE ESPAÑA" id="126">
+        <attvalues>
+          <attvalue for="2" value="10a" />
+          <attvalue for="3" value="29.173333730089716" />
+        </attvalues>
+      </edge>
+      <edge source="PRINCIPE PIO" target="LAGO" id="127">
+        <attvalues>
+          <attvalue for="2" value="10a" />
+          <attvalue for="3" value="56.750474745502245" />
+        </attvalues>
+      </edge>
+      <edge source="PRINCIPE PIO" target="PUERTA DEL ANGEL" id="128">
+        <attvalues>
+          <attvalue for="2" value="6-1" />
+          <attvalue for="3" value="44.45964912280702" />
+        </attvalues>
+      </edge>
+      <edge source="PLAZA DE CASTILLA" target="CHAMARTIN" id="129">
+        <attvalues>
+          <attvalue for="2" value="1" />
+          <attvalue for="3" value="51.849433797909406" />
+        </attvalues>
+      </edge>
+      <edge source="PLAZA DE CASTILLA" target="CUZCO" id="130">
+        <attvalues>
+          <attvalue for="2" value="10a" />
+          <attvalue for="3" value="29.398984907581358" />
+        </attvalues>
+      </edge>
+      <edge source="PLAZA DE CASTILLA" target="VALDEACEDERAS" id="131">
+        <attvalues>
+          <attvalue for="2" value="1" />
+          <attvalue for="3" value="22.40397566594168" />
+        </attvalues>
+      </edge>
+      <edge source="PLAZA DE CASTILLA" target="VENTILLA" id="132">
+        <attvalues>
+          <attvalue for="2" value="9A" />
+          <attvalue for="3" value="32.63248787765759" />
+        </attvalues>
+      </edge>
+      <edge source="PLAZA DE CASTILLA" target="DUQUE DE PASTRANA" id="133">
+        <attvalues>
+          <attvalue for="2" value="9A" />
+          <attvalue for="3" value="23.01827676240209" />
+        </attvalues>
+      </edge>
+      <edge source="VALDEACEDERAS" target="TETUAN" id="134">
+        <attvalues>
+          <attvalue for="2" value="1" />
+          <attvalue for="3" value="24.394791630152696" />
+        </attvalues>
+      </edge>
+      <edge source="ESTRECHO" target="TETUAN" id="135">
+        <attvalues>
+          <attvalue for="2" value="1" />
+          <attvalue for="3" value="32.91127134270444" />
+        </attvalues>
+      </edge>
+      <edge source="ESTRECHO" target="ALVARADO" id="136">
+        <attvalues>
+          <attvalue for="2" value="1" />
+          <attvalue for="3" value="23.411689598444994" />
+        </attvalues>
+      </edge>
+      <edge source="CUATRO CAMINOS" target="ALVARADO" id="137">
+        <attvalues>
+          <attvalue for="2" value="1" />
+          <attvalue for="3" value="19.52002697820492" />
+        </attvalues>
+      </edge>
+      <edge source="CUATRO CAMINOS" target="RIOS ROSAS" id="138">
+        <attvalues>
+          <attvalue for="2" value="1" />
+          <attvalue for="3" value="22.230104875210408" />
+        </attvalues>
+      </edge>
+      <edge source="CUATRO CAMINOS" target="NUEVOS MINISTERIOS" id="139">
+        <attvalues>
+          <attvalue for="2" value="6-1" />
+          <attvalue for="3" value="29.66237816764133" />
+        </attvalues>
+      </edge>
+      <edge source="RIOS ROSAS" target="IGLESIA" id="140">
+        <attvalues>
+          <attvalue for="2" value="1" />
+          <attvalue for="3" value="32.44557458031202" />
+        </attvalues>
+      </edge>
+      <edge source="TRIBUNAL" target="PLAZA DE ESPAÑA" id="141">
+        <attvalues>
+          <attvalue for="2" value="10a" />
+          <attvalue for="3" value="21.395373350408292" />
+        </attvalues>
+      </edge>
+      <edge source="TIRSO DE MOLINA" target="ANTON MARTIN" id="142">
+        <attvalues>
+          <attvalue for="2" value="1" />
+          <attvalue for="3" value="22.007815464463935" />
+        </attvalues>
+      </edge>
+      <edge source="ANTON MARTIN" target="ESTACION DEL ARTE" id="143">
+        <attvalues>
+          <attvalue for="2" value="1" />
+          <attvalue for="3" value="29.398035908815327" />
+        </attvalues>
+      </edge>
+      <edge source="ESTACION DEL ARTE" target="ATOCHA" id="144">
+        <attvalues>
+          <attvalue for="2" value="1" />
+          <attvalue for="3" value="13.457373140158754" />
+        </attvalues>
+      </edge>
+      <edge source="ATOCHA" target="MENENDEZ PELAYO" id="145">
+        <attvalues>
+          <attvalue for="2" value="1" />
+          <attvalue for="3" value="30.569549992332664" />
+        </attvalues>
+      </edge>
+      <edge source="MENENDEZ PELAYO" target="PACIFICO" id="146">
+        <attvalues>
+          <attvalue for="2" value="1" />
+          <attvalue for="3" value="23.509715952400523" />
+        </attvalues>
+      </edge>
+      <edge source="PACIFICO" target="PUENTE DE VALLECAS" id="147">
+        <attvalues>
+          <attvalue for="2" value="1" />
+          <attvalue for="3" value="31.034476469801135" />
+        </attvalues>
+      </edge>
+      <edge source="PACIFICO" target="MENDEZ ALVARO" id="148">
+        <attvalues>
+          <attvalue for="2" value="6-1" />
+          <attvalue for="3" value="33.56615984405458" />
+        </attvalues>
+      </edge>
+      <edge source="PACIFICO" target="CONDE DE CASAL" id="149">
+        <attvalues>
+          <attvalue for="2" value="6-1" />
+          <attvalue for="3" value="28.64666666666667" />
+        </attvalues>
+      </edge>
+      <edge source="PUENTE DE VALLECAS" target="NUEVA NUMANCIA" id="150">
+        <attvalues>
+          <attvalue for="2" value="1" />
+          <attvalue for="3" value="20.5477491309777" />
+        </attvalues>
+      </edge>
+      <edge source="LAGO" target="BATAN" id="151">
+        <attvalues>
+          <attvalue for="2" value="10a" />
+          <attvalue for="3" value="61.64712430791645" />
+        </attvalues>
+      </edge>
+      <edge source="BATAN" target="CASA DE CAMPO" id="152">
+        <attvalues>
+          <attvalue for="2" value="10a" />
+          <attvalue for="3" value="29.607513422386887" />
+        </attvalues>
+      </edge>
+      <edge source="CASA DE CAMPO" target="COLONIA JARDIN" id="153">
+        <attvalues>
+          <attvalue for="2" value="10a" />
+          <attvalue for="3" value="42.11042365722751" />
+        </attvalues>
+      </edge>
+      <edge source="CASA DE CAMPO" target="CAMPAMENTO" id="154">
+        <attvalues>
+          <attvalue for="2" value="5" />
+          <attvalue for="3" value="52.29632164242943" />
+        </attvalues>
+      </edge>
+      <edge source="COLONIA JARDIN" target="AVIACION ESPAÑOLA" id="155">
+        <attvalues>
+          <attvalue for="2" value="10a" />
+          <attvalue for="3" value="55.36283572763431" />
+        </attvalues>
+      </edge>
+      <edge source="PLAZA ELIPTICA" target="ABRANTES" id="156">
+        <attvalues>
+          <attvalue for="2" value="11" />
+          <attvalue for="3" value="33.92311463046757" />
+        </attvalues>
+      </edge>
+      <edge source="PLAZA ELIPTICA" target="OPAÑEL" id="157">
+        <attvalues>
+          <attvalue for="2" value="6-1" />
+          <attvalue for="3" value="26.802105263157898" />
+        </attvalues>
+      </edge>
+      <edge source="PLAZA ELIPTICA" target="USERA" id="158">
+        <attvalues>
+          <attvalue for="2" value="6-1" />
+          <attvalue for="3" value="37.38436647173489" />
+        </attvalues>
+      </edge>
+      <edge source="ABRANTES" target="PAN BENDITO" id="159">
+        <attvalues>
+          <attvalue for="2" value="11" />
+          <attvalue for="3" value="29.552677224736048" />
+        </attvalues>
+      </edge>
+      <edge source="PAN BENDITO" target="SAN FRANCISCO" id="160">
+        <attvalues>
+          <attvalue for="2" value="11" />
+          <attvalue for="3" value="22.195550527903467" />
+        </attvalues>
+      </edge>
+      <edge source="NUEVOS MINISTERIOS" target="SANTIAGO BERNABEU" id="161">
+        <attvalues>
+          <attvalue for="2" value="10a" />
+          <attvalue for="3" value="25.45456375285967" />
+        </attvalues>
+      </edge>
+      <edge source="NUEVOS MINISTERIOS" target="GREGORIO MARAÑON" id="162">
+        <attvalues>
+          <attvalue for="2" value="10a" />
+          <attvalue for="3" value="27.92821412381735" />
+        </attvalues>
+      </edge>
+      <edge source="NUEVOS MINISTERIOS" target="REPUBLICA ARGENTINA" id="163">
+        <attvalues>
+          <attvalue for="2" value="6-1" />
+          <attvalue for="3" value="37.14144249512671" />
+        </attvalues>
+      </edge>
+      <edge source="NUEVOS MINISTERIOS" target="COLOMBIA" id="164">
+        <attvalues>
+          <attvalue for="2" value="8" />
+          <attvalue for="3" value="51.196303996303996" />
+        </attvalues>
+      </edge>
+      <edge source="GREGORIO MARAÑON" target="AVENIDA DE AMERICA" id="165">
+        <attvalues>
+          <attvalue for="2" value="7a" />
+          <attvalue for="3" value="39.63330932661145" />
+        </attvalues>
+      </edge>
+      <edge source="GREGORIO MARAÑON" target="ALONSO CANO" id="166">
+        <attvalues>
+          <attvalue for="2" value="7a" />
+          <attvalue for="3" value="22.482355059416637" />
+        </attvalues>
+      </edge>
+      <edge source="BARRIO DEL PILAR" target="HERRERA ORIA" id="167">
+        <attvalues>
+          <attvalue for="2" value="9A" />
+          <attvalue for="3" value="36.052331219694146" />
+        </attvalues>
+      </edge>
+      <edge source="BARRIO DEL PILAR" target="VENTILLA" id="168">
+        <attvalues>
+          <attvalue for="2" value="9A" />
+          <attvalue for="3" value="38.30999627004849" />
+        </attvalues>
+      </edge>
+      <edge source="DUQUE DE PASTRANA" target="PIO XII" id="169">
+        <attvalues>
+          <attvalue for="2" value="9A" />
+          <attvalue for="3" value="28.0934725848564" />
+        </attvalues>
+      </edge>
+      <edge source="PIO XII" target="COLOMBIA" id="170">
+        <attvalues>
+          <attvalue for="2" value="9A" />
+          <attvalue for="3" value="26.272286460276018" />
+        </attvalues>
+      </edge>
+      <edge source="COLOMBIA" target="CONCHA ESPINA" id="171">
+        <attvalues>
+          <attvalue for="2" value="9A" />
+          <attvalue for="3" value="27.026408056695264" />
+        </attvalues>
+      </edge>
+      <edge source="COLOMBIA" target="PINAR DEL REY" id="172">
+        <attvalues>
+          <attvalue for="2" value="8" />
+          <attvalue for="3" value="66.32055902055902" />
+        </attvalues>
+      </edge>
+      <edge source="CONCHA ESPINA" target="CRUZ DEL RAYO" id="173">
+        <attvalues>
+          <attvalue for="2" value="9A" />
+          <attvalue for="3" value="26.793547183886613" />
+        </attvalues>
+      </edge>
+      <edge source="CRUZ DEL RAYO" target="AVENIDA DE AMERICA" id="174">
+        <attvalues>
+          <attvalue for="2" value="9A" />
+          <attvalue for="3" value="26.472584856396868" />
+        </attvalues>
+      </edge>
+      <edge source="AVENIDA DE AMERICA" target="CARTAGENA" id="175">
+        <attvalues>
+          <attvalue for="2" value="7a" />
+          <attvalue for="3" value="25.86420597767375" />
+        </attvalues>
+      </edge>
+      <edge source="AVENIDA DE AMERICA" target="DIEGO DE LEON" id="176">
+        <attvalues>
+          <attvalue for="2" value="6-1" />
+          <attvalue for="3" value="27.217660818713455" />
+        </attvalues>
+      </edge>
+      <edge source="AVENIDA DE AMERICA" target="PROSPERIDAD" id="177">
+        <attvalues>
+          <attvalue for="2" value="4" />
+          <attvalue for="3" value="35.054683318465656" />
+        </attvalues>
+      </edge>
+      <edge source="AVENIDA DE AMERICA" target="REPUBLICA ARGENTINA" id="178">
+        <attvalues>
+          <attvalue for="2" value="6-1" />
+          <attvalue for="3" value="34.289317738791425" />
+        </attvalues>
+      </edge>
+      <edge source="IBIZA" target="SAINZ DE BARANDA" id="179">
+        <attvalues>
+          <attvalue for="2" value="9A" />
+          <attvalue for="3" value="35.496493845580005" />
+        </attvalues>
+      </edge>
+      <edge source="SAINZ DE BARANDA" target="ESTRELLA" id="180">
+        <attvalues>
+          <attvalue for="2" value="9A" />
+          <attvalue for="3" value="31.341104065647148" />
+        </attvalues>
+      </edge>
+      <edge source="SAINZ DE BARANDA" target="CONDE DE CASAL" id="181">
+        <attvalues>
+          <attvalue for="2" value="6-1" />
+          <attvalue for="3" value="32.35812865497076" />
+        </attvalues>
+      </edge>
+      <edge source="SAINZ DE BARANDA" target="O'DONNELL" id="182">
+        <attvalues>
+          <attvalue for="2" value="6-1" />
+          <attvalue for="3" value="29.618440545808966" />
+        </attvalues>
+      </edge>
+      <edge source="ESTRELLA" target="VINATEROS" id="183">
+        <attvalues>
+          <attvalue for="2" value="9A" />
+          <attvalue for="3" value="33.76061171204774" />
+        </attvalues>
+      </edge>
+      <edge source="VINATEROS" target="ARTILLEROS" id="184">
+        <attvalues>
+          <attvalue for="2" value="9A" />
+          <attvalue for="3" value="31.826781051846325" />
+        </attvalues>
+      </edge>
+      <edge source="ARTILLEROS" target="PAVONES" id="185">
+        <attvalues>
+          <attvalue for="2" value="9A" />
+          <attvalue for="3" value="34.98787765759045" />
+        </attvalues>
+      </edge>
+      <edge source="PAVONES" target="VALDEBERNARDO" id="186">
+        <attvalues>
+          <attvalue for="2" value="9A" />
+          <attvalue for="3" value="52.692465497948525" />
+        </attvalues>
+      </edge>
+      <edge source="VALDEBERNARDO" target="VICALVARO" id="187">
+        <attvalues>
+          <attvalue for="2" value="9A" />
+          <attvalue for="3" value="51.64722118612458" />
+        </attvalues>
+      </edge>
+      <edge source="VICALVARO" target="SAN CIPRIANO" id="188">
+        <attvalues>
+          <attvalue for="2" value="9A" />
+          <attvalue for="3" value="19.098508019395748" />
+        </attvalues>
+      </edge>
+      <edge source="SAN CIPRIANO" target="PUERTA DE ARGANDA" id="189">
+        <attvalues>
+          <attvalue for="2" value="9A" />
+          <attvalue for="3" value="24.347071988064158" />
+        </attvalues>
+      </edge>
+      <edge source="PUERTA DE ARGANDA" target="RIVAS URBANIZACIONES" id="190">
+        <attvalues>
+          <attvalue for="2" value="9B" />
+          <attvalue for="3" value="105.81345233713654" />
+        </attvalues>
+      </edge>
+      <edge source="FUENCARRAL" target="TRES OLIVOS" id="191">
+        <attvalues>
+          <attvalue for="2" value="10a" />
+          <attvalue for="3" value="24.873530814499357" />
+        </attvalues>
+      </edge>
+      <edge source="FUENCARRAL" target="BEGOÑA" id="192">
+        <attvalues>
+          <attvalue for="2" value="10a" />
+          <attvalue for="3" value="45.85454925552217" />
+        </attvalues>
+      </edge>
+      <edge source="BEGOÑA" target="CHAMARTIN" id="193">
+        <attvalues>
+          <attvalue for="2" value="10a" />
+          <attvalue for="3" value="33.177808089795626" />
+        </attvalues>
+      </edge>
+      <edge source="CHAMARTIN" target="BAMBU" id="194">
+        <attvalues>
+          <attvalue for="2" value="1" />
+          <attvalue for="3" value="34.07521341463414" />
+        </attvalues>
+      </edge>
+      <edge source="CUZCO" target="SANTIAGO BERNABEU" id="195">
+        <attvalues>
+          <attvalue for="2" value="10a" />
+          <attvalue for="3" value="25.588467897409963" />
+        </attvalues>
+      </edge>
+      <edge source="VICENTE ALEIXANDRE" target="CIUDAD UNIVERSITARIA" id="196">
+        <attvalues>
+          <attvalue for="2" value="6-1" />
+          <attvalue for="3" value="26.677738791423003" />
+        </attvalues>
+      </edge>
+      <edge source="PUERTA DEL ANGEL" target="ALTO DE EXTREMADURA" id="197">
+        <attvalues>
+          <attvalue for="2" value="6-1" />
+          <attvalue for="3" value="40.23641325536063" />
+        </attvalues>
+      </edge>
+      <edge source="ALTO DE EXTREMADURA" target="LUCERO" id="198">
+        <attvalues>
+          <attvalue for="2" value="6-1" />
+          <attvalue for="3" value="36.53875243664718" />
+        </attvalues>
+      </edge>
+      <edge source="LUCERO" target="LAGUNA" id="199">
+        <attvalues>
+          <attvalue for="2" value="6-1" />
+          <attvalue for="3" value="36.53875243664718" />
+        </attvalues>
+      </edge>
+      <edge source="LAS MUSAS" target="ESTADIO METROPOLITANO" id="200">
+        <attvalues>
+          <attvalue for="2" value="7a" />
+          <attvalue for="3" value="37.931645660785016" />
+        </attvalues>
+      </edge>
+      <edge source="LAS MUSAS" target="SAN BLAS" id="201">
+        <attvalues>
+          <attvalue for="2" value="7a" />
+          <attvalue for="3" value="31.313179690313287" />
+        </attvalues>
+      </edge>
+      <edge source="SAN BLAS" target="SIMANCAS" id="202">
+        <attvalues>
+          <attvalue for="2" value="7a" />
+          <attvalue for="3" value="30.390997479294203" />
+        </attvalues>
+      </edge>
+      <edge source="SIMANCAS" target="GARCIA NOBLEJAS" id="203">
+        <attvalues>
+          <attvalue for="2" value="7a" />
+          <attvalue for="3" value="29.13341735685992" />
+        </attvalues>
+      </edge>
+      <edge source="ASCAO" target="GARCIA NOBLEJAS" id="204">
+        <attvalues>
+          <attvalue for="2" value="7a" />
+          <attvalue for="3" value="28.379114151962547" />
+        </attvalues>
+      </edge>
+      <edge source="PARQUE DE LAS AVENIDAS" target="BARRIO DE LA CONCEPCION" id="205">
+        <attvalues>
+          <attvalue for="2" value="7a" />
+          <attvalue for="3" value="33.34407634137559" />
+        </attvalues>
+      </edge>
+      <edge source="PARQUE DE LAS AVENIDAS" target="CARTAGENA" id="206">
+        <attvalues>
+          <attvalue for="2" value="7a" />
+          <attvalue for="3" value="25.957075981274755" />
+        </attvalues>
+      </edge>
+      <edge source="FERIA DE MADRID" target="MAR DE CRISTAL" id="207">
+        <attvalues>
+          <attvalue for="2" value="8" />
+          <attvalue for="3" value="51.155809655809655" />
+        </attvalues>
+      </edge>
+      <edge source="FERIA DE MADRID" target="AEROPUERTO T1-T2-T3" id="208">
+        <attvalues>
+          <attvalue for="2" value="8" />
+          <attvalue for="3" value="93.73127743127743" />
+        </attvalues>
+      </edge>
+      <edge source="HERRERA ORIA" target="MIRASIERRA" id="209">
+        <attvalues>
+          <attvalue for="2" value="9A" />
+          <attvalue for="3" value="45.25537859007834" />
+        </attvalues>
+      </edge>
+      <edge source="PUERTA DE TOLEDO" target="LA LATINA" id="210">
+        <attvalues>
+          <attvalue for="2" value="5" />
+          <attvalue for="3" value="25.554106073567155" />
+        </attvalues>
+      </edge>
+      <edge source="PUERTA DE TOLEDO" target="ACACIAS" id="211">
+        <attvalues>
+          <attvalue for="2" value="5" />
+          <attvalue for="3" value="38.00970915312233" />
+        </attvalues>
+      </edge>
+      <edge source="LAGUNA" target="CARPETANA" id="212">
+        <attvalues>
+          <attvalue for="2" value="6-1" />
+          <attvalue for="3" value="26.824327485380117" />
+        </attvalues>
+      </edge>
+      <edge source="CARPETANA" target="OPORTO" id="213">
+        <attvalues>
+          <attvalue for="2" value="6-1" />
+          <attvalue for="3" value="34.863430799220275" />
+        </attvalues>
+      </edge>
+      <edge source="OPAÑEL" target="OPORTO" id="214">
+        <attvalues>
+          <attvalue for="2" value="6-1" />
+          <attvalue for="3" value="29.82814814814815" />
+        </attvalues>
+      </edge>
+      <edge source="MENDEZ ALVARO" target="ARGANZUELA-PLANETARIO" id="215">
+        <attvalues>
+          <attvalue for="2" value="6-1" />
+          <attvalue for="3" value="35.10296296296296" />
+        </attvalues>
+      </edge>
+      <edge source="PIRAMIDES" target="ACACIAS" id="216">
+        <attvalues>
+          <attvalue for="2" value="5" />
+          <attvalue for="3" value="23.63785286569718" />
+        </attvalues>
+      </edge>
+      <edge source="PIRAMIDES" target="MARQUES DE VADILLO" id="217">
+        <attvalues>
+          <attvalue for="2" value="5" />
+          <attvalue for="3" value="32.43900769888794" />
+        </attvalues>
+      </edge>
+      <edge source="MARQUES DE VADILLO" target="URGEL" id="218">
+        <attvalues>
+          <attvalue for="2" value="5" />
+          <attvalue for="3" value="32.70359281437126" />
+        </attvalues>
+      </edge>
+      <edge source="URGEL" target="OPORTO" id="219">
+        <attvalues>
+          <attvalue for="2" value="5" />
+          <attvalue for="3" value="28.153721129170233" />
+        </attvalues>
+      </edge>
+      <edge source="OPORTO" target="VISTA ALEGRE" id="220">
+        <attvalues>
+          <attvalue for="2" value="5" />
+          <attvalue for="3" value="31.29396920444825" />
+        </attvalues>
+      </edge>
+      <edge source="VISTA ALEGRE" target="CARABANCHEL" id="221">
+        <attvalues>
+          <attvalue for="2" value="5" />
+          <attvalue for="3" value="26.68049615055603" />
+        </attvalues>
+      </edge>
+      <edge source="CARABANCHEL" target="EUGENIA DE MONTIJO" id="222">
+        <attvalues>
+          <attvalue for="2" value="5" />
+          <attvalue for="3" value="25.2051753635586" />
+        </attvalues>
+      </edge>
+      <edge source="DIEGO DE LEON" target="LISTA" id="223">
+        <attvalues>
+          <attvalue for="2" value="4" />
+          <attvalue for="3" value="24.954683318465655" />
+        </attvalues>
+      </edge>
+      <edge source="GOYA" target="VELAZQUEZ" id="224">
+        <attvalues>
+          <attvalue for="2" value="4" />
+          <attvalue for="3" value="21.775646743978587" />
+        </attvalues>
+      </edge>
+      <edge source="GOYA" target="LISTA" id="225">
+        <attvalues>
+          <attvalue for="2" value="4" />
+          <attvalue for="3" value="24.91387154326494" />
+        </attvalues>
+      </edge>
+      <edge source="PROSPERIDAD" target="ALFONSO XIII" id="226">
+        <attvalues>
+          <attvalue for="2" value="4" />
+          <attvalue for="3" value="38.092595896520955" />
+        </attvalues>
+      </edge>
+      <edge source="ALFONSO XIII" target="AVENIDA DE LA PAZ" id="227">
+        <attvalues>
+          <attvalue for="2" value="4" />
+          <attvalue for="3" value="28.37114183764496" />
+        </attvalues>
+      </edge>
+      <edge source="ARTURO SORIA" target="AVENIDA DE LA PAZ" id="228">
+        <attvalues>
+          <attvalue for="2" value="4" />
+          <attvalue for="3" value="33.72007136485281" />
+        </attvalues>
+      </edge>
+      <edge source="ARTURO SORIA" target="ESPERANZA" id="229">
+        <attvalues>
+          <attvalue for="2" value="4" />
+          <attvalue for="3" value="37.15178412132025" />
+        </attvalues>
+      </edge>
+      <edge source="ESPERANZA" target="CANILLAS" id="230">
+        <attvalues>
+          <attvalue for="2" value="4" />
+          <attvalue for="3" value="57.04937555753791" />
+        </attvalues>
+      </edge>
+      <edge source="CANILLAS" target="MAR DE CRISTAL" id="231">
+        <attvalues>
+          <attvalue for="2" value="4" />
+          <attvalue for="3" value="28.462042818911684" />
+        </attvalues>
+      </edge>
+      <edge source="MAR DE CRISTAL" target="SAN LORENZO" id="232">
+        <attvalues>
+          <attvalue for="2" value="4" />
+          <attvalue for="3" value="21.193681000587464" />
+        </attvalues>
+      </edge>
+      <edge source="MAR DE CRISTAL" target="PINAR DEL REY" id="233">
+        <attvalues>
+          <attvalue for="2" value="8" />
+          <attvalue for="3" value="21.08905058905059" />
+        </attvalues>
+      </edge>
+      <edge source="SAN LORENZO" target="PARQUE DE SANTA MARIA" id="234">
+        <attvalues>
+          <attvalue for="2" value="4" />
+          <attvalue for="3" value="30.718866897274527" />
+        </attvalues>
+      </edge>
+      <edge source="PARQUE DE SANTA MARIA" target="HORTALEZA" id="235">
+        <attvalues>
+          <attvalue for="2" value="4" />
+          <attvalue for="3" value="34.668409068858516" />
+        </attvalues>
+      </edge>
+      <edge source="NUEVA NUMANCIA" target="PORTAZGO" id="236">
+        <attvalues>
+          <attvalue for="2" value="1" />
+          <attvalue for="3" value="25.222325654090636" />
+        </attvalues>
+      </edge>
+      <edge source="BANCO DE ESPAÑA" target="SEVILLA" id="237">
+        <attvalues>
+          <attvalue for="2" value="2" />
+          <attvalue for="3" value="18.586168455821635" />
+        </attvalues>
+      </edge>
+      <edge source="AEROPUERTO T1-T2-T3" target="BARAJAS" id="238">
+        <attvalues>
+          <attvalue for="2" value="8" />
+          <attvalue for="3" value="33.04518364518365" />
+        </attvalues>
+      </edge>
+      <edge source="BARAJAS" target="AEROPUERTO T-4" id="239">
+        <attvalues>
+          <attvalue for="2" value="8" />
+          <attvalue for="3" value="48.290713790713795" />
+        </attvalues>
+      </edge>
+      <edge source="EUGENIA DE MONTIJO" target="ALUCHE" id="240">
+        <attvalues>
+          <attvalue for="2" value="5" />
+          <attvalue for="3" value="39.92750213857998" />
+        </attvalues>
+      </edge>
+      <edge source="ALUCHE" target="EMPALME" id="241">
+        <attvalues>
+          <attvalue for="2" value="5" />
+          <attvalue for="3" value="28.904662104362707" />
+        </attvalues>
+      </edge>
+      <edge source="EMPALME" target="CAMPAMENTO" id="242">
+        <attvalues>
+          <attvalue for="2" value="5" />
+          <attvalue for="3" value="19.034987168520104" />
+        </attvalues>
+      </edge>
+      <edge source="CUATRO VIENTOS" target="AVIACION ESPAÑOLA" id="243">
+        <attvalues>
+          <attvalue for="2" value="10a" />
+          <attvalue for="3" value="37.29744537761246" />
+        </attvalues>
+      </edge>
+      <edge source="VALDECARROS" target="LAS SUERTES" id="244">
+        <attvalues>
+          <attvalue for="2" value="1" />
+          <attvalue for="3" value="36.66235906951076" />
+        </attvalues>
+      </edge>
+      <edge source="BAMBU" target="PINAR DE CHAMARTIN" id="245">
+        <attvalues>
+          <attvalue for="2" value="1" />
+          <attvalue for="3" value="46.2283836624939" />
+        </attvalues>
+      </edge>
+      <edge source="PINAR DE CHAMARTIN" target="MANOTERAS" id="246">
+        <attvalues>
+          <attvalue for="2" value="4" />
+          <attvalue for="3" value="22.56199542752823" />
+        </attvalues>
+      </edge>
+      <edge source="LA ELIPA" target="LA ALMUDENA" id="247">
+        <attvalues>
+          <attvalue for="2" value="2" />
+          <attvalue for="3" value="47.71846820809248" />
+        </attvalues>
+      </edge>
+      <edge source="HORTALEZA" target="MANOTERAS" id="248">
+        <attvalues>
+          <attvalue for="2" value="4" />
+          <attvalue for="3" value="41.61463013254313" />
+        </attvalues>
+      </edge>
+      <edge source="TRES OLIVOS" target="MONTECARMELO" id="249">
+        <attvalues>
+          <attvalue for="2" value="10b" />
+          <attvalue for="3" value="15.758732147050456" />
+        </attvalues>
+      </edge>
+      <edge source="MONTECARMELO" target="LAS TABLAS" id="250">
+        <attvalues>
+          <attvalue for="2" value="10b" />
+          <attvalue for="3" value="82.88894520216057" />
+        </attvalues>
+      </edge>
+      <edge source="LAS TABLAS" target="RONDA DE LA COMUNICACION" id="251">
+        <attvalues>
+          <attvalue for="2" value="10b" />
+          <attvalue for="3" value="25.920349481053712" />
+        </attvalues>
+      </edge>
+      <edge source="ALAMEDA DE OSUNA" target="EL CAPRICHO" id="252">
+        <attvalues>
+          <attvalue for="2" value="5" />
+          <attvalue for="3" value="31.51045765611634" />
+        </attvalues>
+      </edge>
+      <edge source="SAN FRANCISCO" target="CARABANCHEL ALTO" id="253">
+        <attvalues>
+          <attvalue for="2" value="11" />
+          <attvalue for="3" value="45.086312217194575" />
+        </attvalues>
+      </edge>
+      <edge source="CARABANCHEL ALTO" target="LA PESETA" id="254">
+        <attvalues>
+          <attvalue for="2" value="11" />
+          <attvalue for="3" value="35.627187028657616" />
+        </attvalues>
+      </edge>
+      <edge source="ALMENDRALES" target="HOSPITAL 12 DE OCTUBRE" id="255">
+        <attvalues>
+          <attvalue for="2" value="3" />
+          <attvalue for="3" value="41.646898759503806" />
+        </attvalues>
+      </edge>
+      <edge source="HOSPITAL 12 DE OCTUBRE" target="SAN FERMIN-ORCASUR" id="256">
+        <attvalues>
+          <attvalue for="2" value="3" />
+          <attvalue for="3" value="24.305206082432974" />
+        </attvalues>
+      </edge>
+      <edge source="SAN FERMIN-ORCASUR" target="CIUDAD DE LOS ANGELES" id="257">
+        <attvalues>
+          <attvalue for="2" value="3" />
+          <attvalue for="3" value="45.521336534613845" />
+        </attvalues>
+      </edge>
+      <edge source="CIUDAD DE LOS ANGELES" target="VILLAVERDE BAJO CRUCE" id="258">
+        <attvalues>
+          <attvalue for="2" value="3" />
+          <attvalue for="3" value="39.49323729491797" />
+        </attvalues>
+      </edge>
+      <edge source="VILLAVERDE BAJO CRUCE" target="SAN CRISTOBAL" id="259">
+        <attvalues>
+          <attvalue for="2" value="3" />
+          <attvalue for="3" value="42.65577030812325" />
+        </attvalues>
+      </edge>
+      <edge source="SAN CRISTOBAL" target="VILLAVERDE ALTO" id="260">
+        <attvalues>
+          <attvalue for="2" value="3" />
+          <attvalue for="3" value="65.31860344137655" />
+        </attvalues>
+      </edge>
+      <edge source="LA GAVIA" target="LAS SUERTES" id="261">
+        <attvalues>
+          <attvalue for="2" value="1" />
+          <attvalue for="3" value="57.16743815940766" />
+        </attvalues>
+      </edge>
+      <edge source="LA ALMUDENA" target="ALSACIA" id="262">
+        <attvalues>
+          <attvalue for="2" value="2" />
+          <attvalue for="3" value="57.024050371593724" />
+        </attvalues>
+      </edge>
+      <edge source="ALSACIA" target="AVENIDA DE GUADALAJARA" id="263">
+        <attvalues>
+          <attvalue for="2" value="2" />
+          <attvalue for="3" value="44.94079686209744" />
+        </attvalues>
+      </edge>
+      <edge source="AVENIDA DE GUADALAJARA" target="LAS ROSAS" id="264">
+        <attvalues>
+          <attvalue for="2" value="2" />
+          <attvalue for="3" value="37.16329479768786" />
+        </attvalues>
+      </edge>
+      <edge source="MIRASIERRA" target="PACO DE LUCIA" id="265">
+        <attvalues>
+          <attvalue for="2" value="9A" />
+          <attvalue for="3" value="54.08700857888847" />
+        </attvalues>
+      </edge>
+      <edge source="HOSPITAL DE MOSTOLES" target="PRADILLO" id="266">
+        <attvalues>
+          <attvalue for="2" value="12-1" />
+          <attvalue for="3" value="25.445941278065632" />
+        </attvalues>
+      </edge>
+      <edge source="HOSPITAL DE MOSTOLES" target="MANUELA MALASAÑA" id="267">
+        <attvalues>
+          <attvalue for="2" value="12-1" />
+          <attvalue for="3" value="39.447693066864055" />
+        </attvalues>
+      </edge>
+      <edge source="UNIVERSIDAD REY JUAN CARLOS" target="MOSTOLES CENTRAL" id="268">
+        <attvalues>
+          <attvalue for="2" value="12-1" />
+          <attvalue for="3" value="32.237527757216874" />
+        </attvalues>
+      </edge>
+      <edge source="MOSTOLES CENTRAL" target="PRADILLO" id="269">
+        <attvalues>
+          <attvalue for="2" value="12-1" />
+          <attvalue for="3" value="17.239279546015297" />
+        </attvalues>
+      </edge>
+      <edge source="RIVAS URBANIZACIONES" target="RIVAS FUTURA" id="270">
+        <attvalues>
+          <attvalue for="2" value="9B" />
+          <attvalue for="3" value="66.52027972027972" />
+        </attvalues>
+      </edge>
+      <edge source="RIVAS VACIAMADRID" target="RIVAS FUTURA" id="271">
+        <attvalues>
+          <attvalue for="2" value="9B" />
+          <attvalue for="3" value="28.005925653294074" />
+        </attvalues>
+      </edge>
+      <edge source="SAN FERNANDO" target="JARAMA" id="272">
+        <attvalues>
+          <attvalue for="2" value="7b" />
+          <attvalue for="3" value="32.14907429598561" />
+        </attvalues>
+      </edge>
+      <edge source="JARAMA" target="HENARES" id="273">
+        <attvalues>
+          <attvalue for="2" value="7b" />
+          <attvalue for="3" value="27.597852007189932" />
+        </attvalues>
+      </edge>
+      <edge source="BAUNATAL" target="REYES CATOLICOS" id="274">
+        <attvalues>
+          <attvalue for="2" value="10b" />
+          <attvalue for="3" value="29.20715647337628" />
+        </attvalues>
+      </edge>
+      <edge source="REYES CATOLICOS" target="HOSPITAL INFANTA SOFIA" id="275">
+        <attvalues>
+          <attvalue for="2" value="10b" />
+          <attvalue for="3" value="41.86014126159683" />
+        </attvalues>
+      </edge>
     </edges>
   </graph>
 </gexf>
